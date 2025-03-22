@@ -10,7 +10,7 @@ export default function AboutMe() {
       <div className="flex space-x-2 items-center">
         <img
           className="object-fill rounded-full w-[75px] h-[75px]"
-          src="../../src/assets/images/portfolio-picture.jpg"
+          src="./public/portfolio-picture.jpg"
           width={100}
           height={100}
           alt="haha"
