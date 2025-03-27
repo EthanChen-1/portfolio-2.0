@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact, Linkedin, Mail } from "lucide-react";
+import { Contact, Linkedin, Mail, Github } from "lucide-react";
 
 export default function ContactMe() {
   return (
@@ -16,6 +16,11 @@ export default function ContactMe() {
         <li>
           <a href="https://www.linkedin.com/in/ethanchen4/" target="_blank">
             <Linkedin size={40} className="inline" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/EthanChen-1" target="_blank">
+            <Github size={40} className="inline" />
           </a>
         </li>
         <li>
